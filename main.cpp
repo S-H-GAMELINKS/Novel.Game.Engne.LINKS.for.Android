@@ -3,8 +3,7 @@
 
 #include "DxLib.h"
 
-int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
-{
+int android_main(void) {
 
 	if (DxLib_Init() == -1)	// ＤＸライブラリ初期化処理
 	{
