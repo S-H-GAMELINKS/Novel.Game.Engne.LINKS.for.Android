@@ -213,37 +213,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BackLog.cpp" />
-    <ClCompile Include="Choice.cpp" />
-    <ClCompile Include="ConfigMenu.cpp" />
-    <ClCompile Include="GameMenu.cpp" />
-    <ClCompile Include="GameTitleMenu.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Material_Manager.cpp" />
-    <ClCompile Include="MouseAndKeyState.cpp" />
-    <ClCompile Include="SaveData.cpp" />
-    <ClCompile Include="ScriptTask_Manager.cpp" />
-    <ClCompile Include="Skip_Auto.cpp" />
-    <ClCompile Include="Utility.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="BackLog.h" />
-    <ClInclude Include="Choice.h" />
-    <ClInclude Include="ConfigMenu.h" />
-    <ClInclude Include="ConstantExpressionVariable.h" />
-    <ClInclude Include="GameMenu.h" />
-    <ClInclude Include="GameTitleMenu.h" />
-    <ClInclude Include="Material_Manager.h" />
-    <ClInclude Include="MouseAndKeyState.hpp" />
-    <ClInclude Include="SaveData.h" />
-    <ClInclude Include="ScriptTask_Manager.h" />
-    <ClInclude Include="Skip_Auto.h" />
-    <ClInclude Include="Utility.h" />
-    <ClInclude Include="Variable.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
